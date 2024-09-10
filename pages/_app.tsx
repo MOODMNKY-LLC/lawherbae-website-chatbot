@@ -66,7 +66,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <BubbleChat
         chatflowid="2b9af05c-fcab-4470-92c2-5a6e90467d2c"
-        apiHost="https://litlaw-flowise.moodmnky.com"
+        apiHost="https://ladylex-flowise.moodmnky.com"
         theme={{
           button: {
             backgroundColor: "#193F4E",
@@ -74,10 +74,10 @@ export default function App({ Component, pageProps }: AppProps) {
             bottom: 20,
             size: "medium",
             iconColor: "white",
-            customIconSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1192490146281574442/litlaw-avatar-headshot2.png",
+            customIconSrc: "https://ladylex-supabase.moodmnky.com/storage/v1/object/public/ladylex_images/lady_lex_avatar.svg",
           },
           chatWindow: {
-            welcomeMessage: "Welcome back Starr! How can I be of service?",
+            welcomeMessage: "Hello! I’m Lady Lex, your personal legal assistant. I’m here to help you navigate complex legal concepts, interpret statutes, generate summaries, and organize your notes. Ask me anything about your legal studies, and I’ll guide you step-by-step. If you’re not sure where to start, try one of the prompts below!",
             backgroundColor: "#2F3437",
             height: 700,
             width: 400,
@@ -87,7 +87,7 @@ export default function App({ Component, pageProps }: AppProps) {
               backgroundColor: "#2F3437",
               textColor: "#FFFFFF",
               showAvatar: true,
-              avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1192490146281574442/litlaw-avatar-headshot2.png",
+              avatarSrc: "https://ladylex-supabase.moodmnky.com/storage/v1/object/public/ladylex_images/lady_lex_avatar.svg",
             },
             userMessage: {
               backgroundColor: "#539997",
@@ -96,7 +96,7 @@ export default function App({ Component, pageProps }: AppProps) {
               avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
             },
             textInput: {
-              placeholder: "Type your question",
+              placeholder: "Ask Lady Lex about legal concepts, estate law, or get help with study materials…",
               backgroundColor: "#2F3437",
               textColor: "#ffffff",
               sendButtonColor: "#193F4E",
